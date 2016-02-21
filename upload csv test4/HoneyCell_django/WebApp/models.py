@@ -6,7 +6,6 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 
-
 def generate_filename(self, filename):
     url = 'documents/%s/%s' %(self.user.username, filename)
     return url
